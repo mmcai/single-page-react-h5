@@ -6,10 +6,9 @@ import Index from './containers/home/index';
 import Axios from 'axios';
 import Request from './utils/Axios';
 import WeiXin from './utils/Weixin';
-import PreLoad from './utils/PreLoad';
-const BaseUrl = window.BaseUrl;
-
 import registerServiceWorker from './registerServiceWorker';
+// import PreLoad from './utils/PreLoad';
+// const BaseUrl = window.BaseUrl;
 
 /* 在ajax 请求之前和之后需要做什么操作 */
 Request(Axios);
@@ -25,11 +24,12 @@ if (viewport) {
 // WeiXin(Axios);
 
 /* 资源加载 */
+/* 
 const Manifest = [
     { id: "gif1", src: "1.gif" },
     { id: "gif2", src: "2.gif" }   
 ];
-
+ */
 
 /* 资源加载，一般情况下加载成功之后再渲染内容 */
 // window.createJS = PreLoad({
