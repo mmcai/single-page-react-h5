@@ -1,0 +1,124 @@
+body,
+html {
+    width: 100%;
+    background: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+}
+
+body {
+    padding-top: constant(safe-area-inset-top);
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
+    padding-bottom: constant(safe-area-inset-bottom);
+}
+
+#root,
+.main {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main {
+    box-sizing: border-box;
+    height: 2181px;
+    background: url(./imgs/bg.png) center 0 no-repeat;
+    background-size: 750px 2181px;
+    padding-top: 807px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.form {
+    box-sizing: border-box;
+    padding: 177px 27px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-item {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 71px;
+    margin-bottom: 35px;
+    height: 67px;
+    
+}
+.f-item-verify{
+    height: 67px;
+    overflow: hidden;
+}
+
+.f-label {
+    display: block;
+    width: 130px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.f-input {
+    flex: 1;
+    background: #00052F;
+    display: flex;
+    height: 67px;
+    align-items: center;
+}
+
+.f-input-verify {
+    width: 237px;
+    margin-right: 30px;
+}
+.f-btn-verify{
+    width: 169px;
+    height: 93px;
+    line-height: 80px;
+    text-align: center;    
+    background: url(./imgs/btn-short.png) 0 0 no-repeat;
+    background-size: 169px 93px;
+    font-size: 24px;
+    color: #fff;
+    margin-right: -10px;
+}
+
+.input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    background: transparent;
+
+}
+
+.input:focus {
+    outline: none;
+}
+
+.f-btn {
+    width: 594px;
+    height: 129px;
+    background: url(./imgs/btn-long.png) 0 0 no-repeat;
+    background-size: 594px 129px;
+    margin: 0 auto 25px;
+    font-size: 48px;
+    text-align: center;
+    line-height: 112px;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+/* 介绍 */
+.intro {
+    box-sizing: border-box;
+    padding: 0 115px 0 99px;
+}
+
+.intro p {
+    color: #B1B1B1;
+    font-size: 24px;
+    margin: 0 0 20px;
+}
